@@ -139,3 +139,32 @@
 # plt.show()
 
 
+#Draw the line chart representing BSE (Bombay Stock Exchange) index in last 10 years.
+# import matplotlib.pyplot as plt
+# years = [2014,2015,2016,2017,2018,2019,2020,2021,2022,2023]
+# bsc = [89,59,74,84,85,94,16,45,36,47]
+# plt.plot(years,bsc,color='teal') 
+# plt.title("Bombay Stock Exchange") 
+# plt.xlabel('Years') 
+# plt.ylabel('BSC')
+# plt.legend() 
+# plt.show()
+
+
+# Take five income source of the Government and display it on the pie chart.
+# import xlrd
+# import pandas as pd
+# import matplotlib.pyplot as plt
+# df = pd.read_excel('Government.xlsx') 
+# print(df)
+# x = df['source'] 
+# y = df['amount']
+# plt.bar(x,y,label="")
+# plt.xlabel('Source') 
+# plt.ylabel('Amount') 
+# plt.title('Government Income') 
+# plt.legend()
+# plt.show()
+
+
+
